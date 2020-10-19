@@ -25,4 +25,7 @@ Create a inventory file with four groups, each provisioning VM should be in sepa
 
 
 
-https://stackoverflow.com/questions/57656073/how-to-set-different-python-interpreters-for-local-and-remote-hosts
+ https://stackoverflow.com/questions/57656073/how-to-set-different-python-interpreters-for-local-and-remote-hosts
+
+## Creating Roles
+ansible-galaxy init roles/creating_a_empty_file

@@ -1,0 +1,7 @@
+---
+# tasks file for roles/creating_a_empty_file
+- name: tasks file for roles/creating_a_empty_file
+  file:
+    path: "{{ path }}"
+    state: touch
+    mode: "{{ mode }}"

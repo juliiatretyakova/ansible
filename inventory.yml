@@ -1,26 +1,29 @@
 ---
-
+   
 first:
         hosts:
-          first1:
+          first_1:
             ansible_host: 35.221.149.240
 second:
         hosts:
-          second1:
+          secon_1:
             ansible_host: 35.234.44.124
 third:
         hosts:
-          third1:
+          third_1:
             ansible_host: 35.221.244.185
 fourth:
         hosts:
-          fourth1:
+          fourth_1:
             ansible_host: 35.194.133.198
 
-            iaas:
-                children:
-                    first:
-                    second:
+iaas:
+    children: 
+        first:
+        second: 
+
 all:
     vars:
            ansible_user: julia
+
+           

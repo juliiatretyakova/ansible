@@ -1,0 +1,10 @@
+---
+    # Homework for GL Basecamp DevOps
+    - name: Ansible
+      become: yes
+      hosts: all  
+      tasks:
+        - name: tasks file for roles/creating_a_empty_file
+          include_role:
+            name: creating_a_empty_file
+          when: "'iaas' in group_names"
