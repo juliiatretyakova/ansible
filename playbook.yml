@@ -1,5 +1,5 @@
 ---
-    # Homework for GL Basecamp DevOps
+    # Ansible task 1
     - name: Ansible
       become: yes
       hosts: all  
