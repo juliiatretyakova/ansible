@@ -29,3 +29,6 @@ Create a inventory file with four groups, each provisioning VM should be in sepa
 
 ## Creating Roles
 ansible-galaxy init roles/creating_a_empty_file
+
+
+ ansible-playbook playbook.yml
