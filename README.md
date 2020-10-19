@@ -22,3 +22,7 @@ invoke the role for defining variable for all hosts
 print in registered variables
 printing hostnames together with registered variables will be a plus.
 Create a repo in your GitHub account and commit code above
+
+
+
+https://stackoverflow.com/questions/57656073/how-to-set-different-python-interpreters-for-local-and-remote-hosts
