@@ -1,0 +1,5 @@
+---
+# defaults file for roles/defining_variable
+
+path: "/etc/iaac"
+

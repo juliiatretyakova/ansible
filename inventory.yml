@@ -17,6 +17,7 @@ fourth:
           fourth_1:
             ansible_host: 35.194.133.198
 
+#group named iaas include childrens from two first groups            
 iaas:
     children: 
         first:

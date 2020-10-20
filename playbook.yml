@@ -8,3 +8,10 @@
           include_role:
             name: creating_a_empty_file
           when: "'iaas' in group_names"
+         
+
+        - name: tasks file for roles/defining_variable 
+          include_role:
+            name: defining_variable
+        
+        
